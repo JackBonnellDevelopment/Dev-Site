@@ -3,11 +3,11 @@
 
 I'm **Jack Bonnell**, a Computer Vision Engineer.
 
-I specialise in c++ development in the robotics Industry.
+I specialise in C++ development in the Robotics Industry.
 
-Have a look at some of my working [projects].
+Have a look at some of my work [projects].
 
-To see what I am currently up to  [blog].
+To see what I am currently up to [blog].
 
 Contact me at [@username] or by [email].
 
@@ -17,3 +17,4 @@ Contact me at [@username] or by [email].
 [resume]: https://resume.io/r/cdv5HCyfm
 [@username]: https://twitter.com/jackbonnell2
 [email]: mailto:jack.bonnell@hotmail.co.uk
+[blog]: /blog

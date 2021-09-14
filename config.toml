@@ -24,7 +24,6 @@ theme = "hugo-sustain"
   Email         = "jack.bonnell@hotmail.co.uk"
   Twitter       = "JackBonnell2"
   LinkedIn      = "jackbonnell"
-  RSS           = "/blog/index.xml"
 
 ## Main Menu
 [[menu.main]]
