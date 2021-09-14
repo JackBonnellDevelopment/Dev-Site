@@ -7,13 +7,13 @@ I specialise in c++ development in the robotics Industry.
 
 Have a look at some of my working [projects].
 
-To See what I am up to take a look at my blog [blog] 
+To see what I am currently up to  [blog].
 
-Contact me at [JackBonnell2] or by [jack.bonnell@hotmail.co.uk].
+Contact me at [@username] or by [email].
 
 
 
 [projects]: /projects
 [resume]: https://demo.nurlan.co/hugo-vitae/
-[@username]: https://twitter.com/username
-[email]: mailto:email@example.com
+[@username]: https://twitter.com/jackbonnell2
+[email]: mailto:jack.bonnell@hotmail.co.uk
