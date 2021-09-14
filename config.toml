@@ -27,15 +27,15 @@ theme = "hugo-sustain"
 
 ## Main Menu
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
-[[menu.main]]
   name = "projects"
   identifier = "projects"
   weight = 300
   url = "/projects/"
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
 [[menu.main]]
   name = "resume"
   identifier = "resume"
