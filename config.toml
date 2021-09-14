@@ -22,8 +22,8 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "JackBonnellDevelopment"
   Email         = "jack.bonnell@hotmail.co.uk"
-  Twitter       = "https://twitter.com/JackBonnell2"
-  LinkedIn      = "https://www.linkedin.com/in/jackbonnell/"
+  Twitter       = "JackBonnell2"
+  LinkedIn      = "jackbonnell"
   RSS           = "/blog/index.xml"
 
 ## Main Menu
