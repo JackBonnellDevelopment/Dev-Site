@@ -13,8 +13,8 @@ Contact me at [@username] or by [email].
 
 
 
-[projects]: /projects
+[projects]: /Dev-Site/projects
 [resume]: https://resume.io/r/cdv5HCyfm
 [@username]: https://twitter.com/jackbonnell2
 [email]: mailto:jack.bonnell@hotmail.co.uk
-[blog]: /blog
+[blog]: /Dev-Site/blog
