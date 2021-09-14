@@ -12,4 +12,3 @@ tags = [
 
 First ever blog woohoo! keep checking back for any updates my thoughts on tech, food, tech companies etc
 
-{{< /css.inline >}}
