@@ -1,10 +1,10 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
+author = "Jack Bonnell"
+title = "Hello World"
+date = "14-09-2021"
+description = "My First Blog Post"
 tags = [
-    "emoji",
+    "Hello World",
 ]
 +++
 
