@@ -14,6 +14,6 @@ Contact me at [@username] or by [email].
 
 
 [projects]: /projects
-[resume]: https://demo.nurlan.co/hugo-vitae/
+[resume]: https://resume.io/r/cdv5HCyfm
 [@username]: https://twitter.com/jackbonnell2
 [email]: mailto:jack.bonnell@hotmail.co.uk
