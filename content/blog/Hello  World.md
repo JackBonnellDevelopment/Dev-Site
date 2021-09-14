@@ -1,7 +1,7 @@
 +++
 author = "Jack Bonnell"
 title = "Hello World"
-date = "14-09-2021"
+date = "2021-09-14"
 description = "My First Blog Post"
 tags = [
     "Hello World",
