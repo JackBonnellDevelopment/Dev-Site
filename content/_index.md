@@ -9,12 +9,12 @@ Have a look at some of my work [projects].
 
 To see what I am currently up to [blog].
 
-Contact me at [@username] or by [email].
+Contact me at [@JackBonnell2] or by [email].
 
 
 
 [projects]: /Dev-Site/projects
 [resume]: https://resume.io/r/cdv5HCyfm
-[@username]: https://twitter.com/jackbonnell2
+[@JackBonnell2]: https://twitter.com/jackbonnell2
 [email]: mailto:jack.bonnell@hotmail.co.uk
 [blog]: /Dev-Site/blog
