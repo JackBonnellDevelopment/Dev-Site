@@ -3,15 +3,11 @@
 
 I'm **Jack Bonnell**, a Computer Vision Engineer.
 
-I specialise in C++ development in the Robotics Industry.
+I specialise in C++ & FPGA development in the Robotics Industry.
 
-Have a look at some of my work [projects].
+This website is to document my coffee powered sleep deprived exploit.
 
-To see what I am currently up to [blog].
-
-Contact me at [@JackBonnell2] or by [email].
-
-
+You can keep up to date with my day to day work on my [blog]
 
 [projects]: /Dev-Site/projects
 [resume]: https://resume.io/r/cdv5HCyfm
