@@ -14,8 +14,7 @@ tags = [
 
 Kria **Recently** released the [Kria KV260 Vision AI Starter Kit], a SOM with the added benefit of a FPGA. Different in the fact that you should technically be able to add a 12v power supply and run AI models to your heart's content.
 
-![Kria KV260 Vision AI Starter Kit](img/kria.png)
-<img class="special-img-class" src="img/kria.png" />
+![Kria KV260 Vision AI Starter Kit](https://www.xilinx.com/content/xilinx/en/products/som/kria/_jcr_content/root/parsystop/xilinxflexibleslab/xilinxflexibleslab-parsys/xilinxcolumns/childParsys-0/xilinximage.img.png/1618249833506.png)
 
 ## Inital Thoughts
 
