@@ -1,0 +1,106 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Jack Bonnell">
+<link rel="shortcut icon" type=image/x-icon href=https://jackbonnelldevelopment.github.io/Dev-Site/img/favicon.ico>
+<title>Kria: Initial Thoughts | Jack Bonnell - C++ Programmer</title>
+<meta name=description content="Working with the Kira Starter Kit from Xilinx For the first time">
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl crossorigin=anonymous>
+<link rel="preload stylesheet" href=/Dev-Site/css/main.min.css as=style>
+<link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css>
+<link rel=stylesheet type=text/css href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old"><!--[if lt IE 9]><script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
+<script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script><![endif]-->
+</head>
+<body>
+<div id=content>
+<div class="container mb-3">
+<nav class="navbar navbar-expand-lg">
+<div class=container-fluid>
+<a class=navbar-brand href=https://jackbonnelldevelopment.github.io/Dev-Site/>
+<i class="fa fa-home"></i>
+</a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbar aria-controls=navbar>
+<i class="fa fa-bars"></i>
+</button>
+<div id=navbar class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class=nav-item>
+<li><a class=nav-link href=/Dev-Site/blog/>BLOG</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=/Dev-Site/projects/>PROJECTS</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=https://resume.io/r/cdv5HCyfm>RESUME</a></li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class=container>
+<h3 class=mt-3><b><a href=https://jackbonnelldevelopment.github.io/Dev-Site/blog/kria-intial-thoughts/>Kria: Initial Thoughts</a></b></h3>
+<div class="blog-title my-4">
+<h6>
+September 17, 2021
+&nbsp;&nbsp;
+<span class="badge bg-success">Xilinx</span>
+<span class="badge bg-success">Kria</span>
+<span class="badge bg-success">FPGA</span>
+</h6>
+</div>
+<div class=panel>
+<div class=panel-body>
+<div class=blogpost>
+<h1 id=kria-starter-kit>Kria Starter Kit</h1>
+<p>Kria <strong>Recently</strong> released the <a href=https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit.html>Kria KV260 Vision AI Starter Kit</a>, a SOM with the added benefit of a FPGA. Different in the fact that you should technically be able to add a 12v power supply and run AI models to your heart&rsquo;s content.</p>
+<p><img src=/static/img/image.png alt="Kria KV260 Vision AI Starter Kit"></p>
+<h2 id=inital-thoughts>Inital Thoughts</h2>
+<p>I like the Design of the Kria carrier board it has plenty of IO available. up to 32 concurrent streams are possible through a number of IAS and CSI camera connections.</p>
+<p>One in particular I like is the ability to connect MIPI cameras to the Kria board. alongside this connection, Xilinx has made the MIPI IP block free for all users meaning that is very simple to access the 10 bit stream on the video out lane.</p>
+<p>The initial applications available such as SmartCam are very easy to use. With SmartCam having many input and output options to play with. Running a 1080p webcam at 60 frames per second with pedestrian detection. This is impressive for a board so small and compact. comparing this to an <a href=https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/>Nvidia Jetson</a> this is a big step forward in the budget small form factor market.</p>
+<h4 id=pros>Pros</h4>
+<ul>
+<li>
+<p>Easy to initally set up: If you buy the accessory back it gives you everything you need to run the tutorial applications without any third party components</p>
+</li>
+<li>
+<p>Price Point: The starter kit coming in at £199 is a massive win for the industry as many companies and hobbyists have previously been priced out of using FPGA</p>
+</li>
+<li>
+<p>Amount of IO Available: The board comes preconfigured with plenty of IO meaning that there are loads of projects the hobbyists can work on without expansion daughterboards</p>
+</li>
+</ul>
+<h4 id=cons>Cons</h4>
+<ul>
+<li>
+<p>Documentation: a major issue for myself with Xilinx has been the lack of hobbyist level documentation, the PDF available are fine for industry professionals but when hobbyists want to sink their teeth into FPGA development they need A-Z tutorials to make the learning process fun.</p>
+</li>
+<li>
+<p>Toolchain: It would have been nice to see a smaller LITE version of the Vitis Toolchain as the current software stack runs around 100GB and needs a minimum of 16Gb of usage RAM.</p>
+</li>
+<li>
+<p>Bugs: When using the online forums I seem to come across the same issues that occur in 20.15 still occur in 2021.1. This is annoying for both hobbyists and us professionals as this will put potential small business and hobbyist customers from testing out Kria SOM&rsquo;s over Nvidia Jetsons which are seemly plug and play.</p>
+</li>
+</ul>
+<h2 id=conclusion>Conclusion</h2>
+<p>I like the Kria System, There is plenty of IO to play with and many fun applications to test out. Where I see Xilinx falling short is the lack of informal documentation that will enable the new customer base they are focusing this board on to be able to create fun and innovative applications.</p>
+<p>From an industry perspective, it will make it much easier to integrate software applications designed on the KRIA into different form factors for industrial use as companies will use the same basic infrastructure.</p>
+<p>Likely these are teething problems and will be sorted in due course. But for now, It is stopping new companies and hobbyists from embracing the Kria SOM.</p>
+</div>
+</div>
+<div class=disqus>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=container>
+<div class=text-muted>&copy; All rights reserved. Powered by <a href=https://gohugo.io/>Hugo</a>
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js integrity=sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG crossorigin=anonymous></script>
+</body>
+</html>
