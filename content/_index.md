@@ -5,7 +5,7 @@ I'm **Jack Bonnell**, a Computer Vision Engineer.
 
 I specialise in C++ & FPGA development in the Robotics Industry.
 
-This website is to document my coffee powered sleep deprived exploit.
+This website is to document my coffee powered sleep deprived exploits.
 
 You can keep up to date with my day to day work on my [blog]
 
