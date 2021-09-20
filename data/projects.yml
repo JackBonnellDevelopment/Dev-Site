@@ -4,7 +4,7 @@ source:
     name: Accelerated Visual Sense using RealSense Lidar
     description: Creating FPGA based AI face recogition using the RealSense Lidar from Intel
     url: https://www.hackster.io/377753/accelerated-visual-sense-using-realsense-lidar-f31d48
-    - icon: fa fa-hackster
+  - icon: fa fa-hackster
     name: Realsense Support for Kria KV260 PetaLinux 2021.1
     description: Adding support for Intel RealSense Camera Technology on the Kria KV260
     url: https://www.hackster.io/jack-bonnell2/realsense-support-for-kria-kv260-petalinux-2021-1-f5dbe3
