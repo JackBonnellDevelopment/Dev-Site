@@ -1,7 +1,7 @@
 +++
 author = "Jack Bonnell"
 title = "Life: FPGA work, Huel, Future thoughts"
-date = "2021-09-24"
+date = "2021-09-23"
 description = "Working with the Kira Starter Kit from Xilinx For the first time"
 tags = [
     "Life",
@@ -12,6 +12,8 @@ tags = [
 +++
 
 # Life: FPGA work, Huel, Future thoughts
+
+
 
 ## FPGA work
 
@@ -40,9 +42,9 @@ Initial thoughts on the products are positive they taste delicious, and they're 
 
 ## Future Thoughts
 
-I am currently looking at the possiblility of implementing Gstreamer for RealSense, this will increase the frame rate available on the Kria. Getting this to work at 20FPS for the RealSense will be a great precoursor into creating a RealSense library that's accelerated on the FPGA.
+I am currently looking at the possibility of implementing Gstreamer for RealSense. This will increase the frame rate available on the Kria. Getting this to work at 20FPS for the RealSense will be a great precursor to creating a RealSense library that's accelerated on the FPGA.
 
-Life wise looking forward to seeing if this huel positively impacts my life, allowing me to keep pushing with the Kria System. Allowing me to create some impactful projects for both industry and hobbyists alike.
+Life wise-looking forward to seeing if this Huel positively impacts my life, allowing me to keep pushing with the Kria System. Allowing me to create some impactful projects for both industry and hobbyists alike.
 
 ## Key Goals for the Near Future
 
