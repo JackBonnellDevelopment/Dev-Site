@@ -61,7 +61,7 @@ September 23, 2021
 <p>This post is just a little weekly round-up of what I have been up to, thoughts and processes I have been working on, and any good and bad life choices.</p>
 <h2 id=fpga-work>FPGA work</h2>
 <p>This week has been constant. With the release of the Kria board, the race is on to start adapting current processes to work. My current job supports Intel RealSense for computer vision work, so the need for this to be available on the Kria board is paramount.</p>
-<p><img src=/img/kria.png alt="Kria KV260 Vision AI Starter Kit"></p>
+<p><img src=/img/sundance-kria.png alt="Kria KV260 Vision AI Starter Kit"></p>
 <p>The way Kria supports its users with creating overlays for products is inherently similar but also different from previous work on boards such as the ZCU104. Our current workflow is to make the Petalinux project based on the XSA file produced through Vivado, creating the bitstream and then using this within Vitis to generate an application accelerated through the FPGA.</p>
 <p>I like this procedure. It lowered the development time of projects for computer vision, many of the platforms are the same, and being able to integrate minor tweaks without building an entirely new one.</p>
 <p>My main annoyance is lost time with the main bulk of the procedures being self-taught through picking apart example projects etc. Clear documentation or even a flow diagram showing the process phases would have increased my efficiencies.</p>
