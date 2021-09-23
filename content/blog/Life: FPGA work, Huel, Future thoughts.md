@@ -19,7 +19,7 @@ This post is just a little weekly round-up of what I have been up to, thoughts a
 
 This week has been constant. With the release of the Kria board, the race is on to start adapting current processes to work. My current job supports Intel RealSense for computer vision work, so the need for this to be available on the Kria board is paramount.
 
-![Kria KV260 Vision AI Starter Kit](/img/kria.png)
+![Kria KV260 Vision AI Starter Kit](/img/sundance-kria.png)
 
 The way Kria supports its users with creating overlays for products is inherently similar but also different from previous work on boards such as the ZCU104. Our current workflow is to make the Petalinux project based on the XSA file produced through Vivado, creating the bitstream and then using this within Vitis to generate an application accelerated through the FPGA.
 
