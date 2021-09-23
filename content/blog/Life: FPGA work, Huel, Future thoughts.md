@@ -12,7 +12,6 @@ tags = [
 +++
 
 # Life: FPGA work, Huel, Future thoughts
-![](/img/blog.jpg)
 
 This post is just a little weekly round-up of what I have been up to, thoughts and processes I have been working on, and any good and bad life choices.
 
