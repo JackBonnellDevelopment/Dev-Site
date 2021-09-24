@@ -1,6 +1,6 @@
 +++
 author = "Jack Bonnell"
-title = "Life: FPGA work, Huel, Future Thoughts"
+title = "Life: FPGA Work, Huel, Future Thoughts"
 date = "2021-09-24"
 description = "Working with the Kira Starter Kit from Xilinx For the first time"
 tags = [
@@ -11,7 +11,7 @@ tags = [
 ]
 +++
 
-# Life: FPGA work, Huel, Future Thoughts
+# Life: FPGA Work, Huel, Future Thoughts
 
 This post is just a little weekly round-up of what I have been up to, thoughts and processes I have been working on, and any good and bad life choices.
 
