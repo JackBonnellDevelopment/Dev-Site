@@ -1,6 +1,6 @@
 +++
 author = "Jack Bonnell"
-title = "Life: FPGA work, Huel, Future thoughts"
+title = "Life: FPGA work, Huel, Future Thoughts"
 date = "2021-09-24"
 description = "Working with the Kira Starter Kit from Xilinx For the first time"
 tags = [
@@ -11,11 +11,11 @@ tags = [
 ]
 +++
 
-# Life: FPGA work, Huel, Future thoughts
+# Life: FPGA work, Huel, Future Thoughts
 
 This post is just a little weekly round-up of what I have been up to, thoughts and processes I have been working on, and any good and bad life choices.
 
-## FPGA work
+## FPGA Work
 
 This week has been constant. With the release of the Kria board, the race is on to start adapting current processes to work. My current job supports Intel RealSense for computer vision work, so the need for this to be available on the Kria board is paramount.
 
