@@ -9,3 +9,8 @@ source:
     name: Realsense Support for Kria KV260 PetaLinux 2021.1
     description: Adding support for Intel RealSense Camera Technology on the Kria KV260
     url: https://www.hackster.io/jack-bonnell2/realsense-support-for-kria-kv260-petalinux-2021-1-f5dbe3
+
+  - icon: fa fa-hackster
+    name: Xilinx KV260 -petalinux 2021.1 - Build Vitis AI Libraries
+    description: Installing Vitis AI Libraries through the PetaLinux toolchain
+    url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-petalinux-2021-1-build-vitis-ai-libraries-dd3025
