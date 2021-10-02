@@ -1,6 +1,6 @@
 +++
 author = "Jack Bonnell"
-title = "Life: Vitis AI Libraries, Anniversaries, New Addition"
+title = "Life: Vitis AI Libraries, ROS2, New Addition"
 date = "2021-10-01"
 description = "Implementing Vitis AI Libraries, ROS2 and our new addition"
 tags = [
@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-# Life: Vitis AI Libraries, Anniversaries, New Addition
+# Life: Vitis AI Libraries, ROS2, New Addition
 
 This weeks life update continues my adventure with Xilinx KV260. The focus this week is the Vitis AI Libraries and implementing these onto the KV260. A huge inspiration in my life hits the 30-year milestone, and our new addition arrives.
 
