@@ -6,7 +6,7 @@ description = "Implementing Vitis AI Libraries, ROS2 and our new addition"
 tags = [
     "Life",
     "Xilinx",
-    "Anniversaries",
+    "ROS2",
     "Puppy"
 ]
 +++
