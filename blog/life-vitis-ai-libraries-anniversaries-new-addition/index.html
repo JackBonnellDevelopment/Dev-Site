@@ -1,0 +1,120 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Jack Bonnell">
+<link rel="shortcut icon" type=image/x-icon href=https://jackbonnelldevelopment.github.io/img/favicon.ico>
+<title>Life: Vitis AI Libraries, Anniversaries, New Addition | Jack Bonnell - C++ Programmer</title>
+<meta name=description content="Implementing Vitis AI Libraries, ROS2 and our new addition">
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl crossorigin=anonymous>
+<link rel="preload stylesheet" href=/css/main.min.css as=style>
+<link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css>
+<link rel=stylesheet type=text/css href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old"><!--[if lt IE 9]><script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
+<script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script><![endif]-->
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-1Q6WEWQ7RM','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body>
+<div id=content>
+<div class="container mb-3">
+<nav class="navbar navbar-expand-lg">
+<div class=container-fluid>
+<a class=navbar-brand href=https://jackbonnelldevelopment.github.io/>
+<i class="fa fa-home"></i>
+</a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbar aria-controls=navbar>
+<i class="fa fa-bars"></i>
+</button>
+<div id=navbar class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class=nav-item>
+<li><a class=nav-link href=/blog/>BLOG</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=/projects/>PROJECTS</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=https://resume.io/r/cdv5HCyfm>RESUME</a></li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class=container>
+<h3 class=mt-3><b><a href=https://jackbonnelldevelopment.github.io/blog/life-vitis-ai-libraries-anniversaries-new-addition/>Life: Vitis AI Libraries, Anniversaries, New Addition</a></b></h3>
+<div class="blog-title my-4">
+<h6>
+October 1, 2021
+&nbsp;&nbsp;
+<span class="badge bg-success">Life</span>
+<span class="badge bg-success">Xilinx</span>
+<span class="badge bg-success">Anniversaries</span>
+<span class="badge bg-success">Puppy</span>
+</h6>
+</div>
+<div class=panel>
+<div class=panel-body>
+<div class=blogpost>
+<h1 id=life-vitis-ai-libraries-anniversaries-new-addition>Life: Vitis AI Libraries, Anniversaries, New Addition</h1>
+<p>This weeks life update continues my adventure with Xilinx KV260. The focus this week is the Vitis AI Libraries and implementing these onto the KV260. A huge inspiration in my life hits the 30-year milestone, and our new addition arrives.</p>
+<h2 id=vitis-ai-libraries>Vitis AI Libraries</h2>
+<p>Work started this week on implementing the Vitis AI Libraries onto the KV260. My first observation was that the Vitis AI Libraries were missing from the latest toolchain. I needed to add the libraries using a meta-layer manually rather than adding the command to the root config file to achieve this. You can read how to do this in my tutorial: <a href=https://www.hackster.io/jack-bonnell2/xilinx-kv260-petalinux-2021-1-build-vitis-ai-libraries-dd3025>Xilinx KV260 -petalinux 2021.1 - Build Vitis AI Libraries</a></p>
+<p><img src=/img/vitis-ai-logo.png alt="Vitis AI Libraries"></p>
+<p>Once the PetaLinux project was compiled successfully, I created the Vitis platform and ran the DSA example from Vitis-AI to implement the DPU into the hardware block design. With some minor teething problems, this was a success, and I compiled the DPU targetting the KV260 board.</p>
+<p>A minor setback was that the Vitis-AI example exports an SD card image. This image should burn to an SD card and then run on the KV260. The initial boot was unsuccessful. Because the SD card is not booting, I will need to create an FPGA-Manager template in PetaLinux and create a WIC image to load it onto KV260.</p>
+<p>Annoyingly this goes against my need for a simplistic workflow where one tool flows into another. Watch out for a tutorial on how to configure a DPU project soon.</p>
+<h2 id=ros2>ROS2</h2>
+<p>With Xilinx announcing the support for ROS2 on the Kria platform, I have been working on accelerated packages that can utilise critical features of the <a href=https://xilinx.github.io/KRS/sphinx/build/html/index.html>Kria Robotics Stack (KRS)</a> to lower latency and increase edge processing for small form factor robots.</p>
+<p><img src=/img/kria-robotoics-stack-diagram.png alt="Kria Robotics Stack (KRS)"></p>
+<p>Once the DPU has been configured for Vitis AI Libraries, my next step with ROS2 on Kria will be to Implement an accelerated vision package for ROS2 that can utilise key Robotics features such as object detection and adaptive route planning. For now, it&rsquo;s nice to see that ROS2 is being installed into the PetaLinux, without the need to use 3rd part meta-layers or operating systems such as ubuntu.</p>
+<h1 id=new-addition>New Addition</h1>
+<p>This week We picked up the new addition to our house. A cute little puppy named Millie. Millie has already been a learning curve for me as I barely look after myself without the added responsibility of looking after a dog. In the short time since she arrived, she has become a large part of our family, and I look forward to many years making memories.</p>
+<p><img src=/img/Millie.png alt="Little Millie"></p>
+<div class="related-posts mt-4 py-3">
+<h5>Related Posts</h5>
+<div class=row>
+<div class=col-4>
+<h6 style=text-align:right>
+September 24, 2021
+</h6>
+</div>
+<div class=col-8>
+<h6 style=text-align:left>
+<b><a href=/blog/life-fpga-work-huel-future-thoughts/>Life: FPGA Work, Huel, Future Thoughts</a></b>
+</h6>
+</div>
+</div>
+<div class=row>
+<div class=col-4>
+<h6 style=text-align:right>
+September 17, 2021
+</h6>
+</div>
+<div class=col-8>
+<h6 style=text-align:left>
+<b><a href=/blog/kria-intial-thoughts/>Kria: Initial Thoughts</a></b>
+</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=disqus>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//jackbonnelldevelopment.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=container>
+<div class=text-muted>&copy; All rights reserved. Powered by <a href=https://gohugo.io/>Hugo</a>
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js integrity=sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG crossorigin=anonymous></script>
+</body>
+</html>
