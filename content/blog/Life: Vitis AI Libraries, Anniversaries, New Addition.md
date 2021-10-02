@@ -1,6 +1,6 @@
 +++
 author = "Jack Bonnell"
-title = "Life: Vitis AI Libraries, Anniversaries, New Addition
+title = "Life: Vitis AI Libraries, Anniversaries, New Addition"
 date = "2021-10-01"
 description = "Implementing Vitis AI Libraries, ROS2 and our new addition"
 tags = [
