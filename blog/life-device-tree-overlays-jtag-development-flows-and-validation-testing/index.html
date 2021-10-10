@@ -51,7 +51,7 @@ October 7, 2021
 <span class="badge bg-success">Xilinx</span>
 <span class="badge bg-success">Kria</span>
 <span class="badge bg-success">FPGA</span>
-<span class="badge bg-success">Jtag</span>
+<span class="badge bg-success">JTag</span>
 <span class="badge bg-success">Vivado</span>
 </h6>
 </div>
@@ -59,8 +59,8 @@ October 7, 2021
 <div class=panel-body>
 <div class=blogpost>
 <h1 id=life-device-tree-overlays-jtag-development-flows-and-validation-testing>Life: Device Tree Overlays, JTag Development Flows and Validation Testing</h1>
-<p>This week, I&rsquo;ve been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my validation testing in Vivado.</p>
-<p><img src=/img/lynsyn_lite.jpg alt="Lynsyn Lite"></p>
+<p>This week, I&rsquo;ve been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications utilising the <a href=https://store.sundance.com/product/lynsyn-lite/>Lynsyn Lite</a>, along with trying to brush up on my validation testing in Vivado.</p>
+<p><img src=/img/lynsyn_lite.png alt="Lynsyn Lite"></p>
 <h2 id=device-tree-overlays>Device Tree Overlays</h2>
 <p>With my current workflow structure, I do not come across Device tree overlays very often as usually, the PetaLinux build is bespoke to the task at hand. With the KV260 I&rsquo;ve been looking to utilise the Vitis IDE for creating applications based on my pre-configured block designs.</p>
 <p>My current problem has been with the DPU RTL Kernel Example creates an SD card image that will not boot on the KV260. Therefore I need to use the FPGA manager in the PetaLinux software to make an application that I can load through the terminal using xmutil.</p>
@@ -71,7 +71,7 @@ October 7, 2021
 <p>I&rsquo;ve always been a lazy person, so finding the shortest way around a project is usually my first thought when working on a development flow. I have started to look at the virtual Cable utilisation within the Xilinx toolchain to load data onto my ZCU104.</p>
 <p>Currently, due to the crazy resources needed to run the Xilinx toolchain, I use AWS to host my toolchain so that I am able to set the resources to the tasks I am undertaking. This has worked great for processing applications and synthesising block designs, but it falls short in getting the data to the device itself.</p>
 <p>AWS falls short because I need to package the data, then compress and upload it to my online file platform and then do the reverse before I am able to load it onto my ZCU104.</p>
-<p><img src=/img/zcu104.jpg alt=ZCU104></p>
+<p><img src=/img/zcu104.png alt=ZCU104></p>
 <p>Realising that this was adding at least an hour to my development time, I decided to utilise a <a href=https://store.sundance.com/product/lynsyn-lite/>Lynsyn Lite</a> and a VPN to port forward the IP address of my local virtual cable to the AWS machine. This allowed me to load up my image file directly from PetaLinux without the need for an SD card.</p>
 <p>Even though this is slower than loading from a local SD card, this has lowered my development time by around 20 minutes and means I do not need to keep track of which sd card is which.</p>
 <p>Great Success!</p>
