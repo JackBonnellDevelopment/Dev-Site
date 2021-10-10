@@ -1,7 +1,7 @@
 +++
 author = "Jack Bonnell"
 title = "Life: Device Tree Overlays, JTag Development Flows and Validation Testing"
-date = "2021-10-10"
+date = "2021-10-07"
 description = "Working through Device Tree Overlay Issues and Jtag Development flow optimisation"
 tags = [
     "Xilinx",
