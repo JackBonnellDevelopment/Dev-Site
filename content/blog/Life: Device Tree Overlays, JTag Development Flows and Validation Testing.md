@@ -14,7 +14,7 @@ tags = [
 
 # Life: Device Tree Overlays, JTag Development Flows and Validation Testing
 
-This week, I've been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my simulation testing in Vivado.
+This week, I've been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my validation testing in Vivado.
 
 ![Lynsyn Lite](/img/lynsyn_lite.jpg)
 
@@ -52,7 +52,7 @@ With the KV260 I want to utilise the simulation testing available within Vivado 
 
 ![Vivado ML](/img/vivado.png)
 
-This week I've starter at the beginning. The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I'm working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.
+This week I've started at the beginning. The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I'm working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.
 
 Currently, I am working on the real-time TCL script that will send and read the data to create a validation test for the block design. This should, in theory, give me a much better granularity in my Block Design workflow.
 
