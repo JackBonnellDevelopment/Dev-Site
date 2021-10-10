@@ -59,7 +59,7 @@ October 7, 2021
 <div class=panel-body>
 <div class=blogpost>
 <h1 id=life-device-tree-overlays-jtag-development-flows-and-validation-testing>Life: Device Tree Overlays, JTag Development Flows and Validation Testing</h1>
-<p>This week, I&rsquo;ve been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my simulation testing in Vivado.</p>
+<p>This week, I&rsquo;ve been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my validation testing in Vivado.</p>
 <p><img src=/img/lynsyn_lite.jpg alt="Lynsyn Lite"></p>
 <h2 id=device-tree-overlays>Device Tree Overlays</h2>
 <p>With my current workflow structure, I do not come across Device tree overlays very often as usually, the PetaLinux build is bespoke to the task at hand. With the KV260 I&rsquo;ve been looking to utilise the Vitis IDE for creating applications based on my pre-configured block designs.</p>
@@ -78,7 +78,7 @@ October 7, 2021
 <h2 id=validation-testing>Validation Testing</h2>
 <p>With the KV260 I want to utilise the simulation testing available within Vivado to validate my block designs. Currently, my main issue has been that there is minimal utilisation of simulation for visual projects.</p>
 <p><img src=/img/vivado.png alt="Vivado ML"></p>
-<p>This week I&rsquo;ve starter at the beginning. The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I&rsquo;m working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.</p>
+<p>This week I&rsquo;ve started at the beginning. The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I&rsquo;m working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.</p>
 <p>Currently, I am working on the real-time TCL script that will send and read the data to create a validation test for the block design. This should, in theory, give me a much better granularity in my Block Design workflow.</p>
 <div class="related-posts mt-4 py-3">
 <h5>Related Posts</h5>
