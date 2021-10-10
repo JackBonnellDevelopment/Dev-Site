@@ -20,9 +20,7 @@ Kria **Recently** released the [Kria KV260 Vision AI Starter Kit], a SOM with th
 
 I like the Design of the Kria carrier board it has plenty of IO available. up to 32 concurrent streams are possible through a number of IAS and CSI camera connections. 
 
-One in particular I like is the ability to connect MIPI cameras to the Kria board. alongside this connection, Xilinx has made the MIPI IP block free for all users meaning that is very simple to access the 10 bit stream on the video out lane.
-
-The initial applications available such as SmartCam are very easy to use. With SmartCam having many input and output options to play with. Running a 1080p webcam at 60 frames per second with pedestrian detection. This is impressive for a board so small and compact. comparing this to an [Nvidia Jetson] this is a big step forward in the budget small form factor market.
+One in particular I like is the ability to connect MIPI Life: Device Tree Overlays, JTag Development Flows and Simulationsparing this to an [Nvidia Jetson] this is a big step forward in the budget small form factor market.
 
 #### Pros
 
