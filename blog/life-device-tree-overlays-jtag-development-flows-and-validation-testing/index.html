@@ -78,7 +78,7 @@ October 7, 2021
 <h2 id=validation-testing>Validation Testing</h2>
 <p>With the KV260 I want to utilise the simulation testing available within Vivado to validate my block designs. Currently, my main issue has been that there is minimal utilisation of simulation for visual projects.</p>
 <p><img src=/img/vivado.png alt="Vivado ML"></p>
-<p>This week I&rsquo;ve started at the beginning. The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I&rsquo;m working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.</p>
+<p>The DPU utilises Interrupts to let the workflow path know that processing has been complete and the information is ready to be received. Currently, the idea I&rsquo;m working with this to utilise JTag to AXI IP. This will allow me to send and read data from the block design loaded onto real-time hardware. In theory, this means I can emulate the interrupt pattern and data output on the DPU and MIPI IP to debug any intermittent issues from my design.</p>
 <p>Currently, I am working on the real-time TCL script that will send and read the data to create a validation test for the block design. This should, in theory, give me a much better granularity in my Block Design workflow.</p>
 <div class="related-posts mt-4 py-3">
 <h5>Related Posts</h5>
