@@ -7,16 +7,16 @@ tags = [
     "Xilinx",
     "Kria",
     "FPGA",
-    "Jtag",
+    "JTag",
     "Vivado"
 ]
 +++
 
 # Life: Device Tree Overlays, JTag Development Flows and Validation Testing
 
-This week, I've been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications, along with trying to brush up on my validation testing in Vivado.
+This week, I've been working on creating a more efficient Workflow for myself regarding mocking up block designs and Vitis applications utilising the [Lynsyn Lite], along with trying to brush up on my validation testing in Vivado.
 
-![Lynsyn Lite](/img/lynsyn_lite.jpg)
+![Lynsyn Lite](/img/lynsyn_lite.png)
 
 ## Device Tree Overlays
 
@@ -38,7 +38,7 @@ Currently, due to the crazy resources needed to run the Xilinx toolchain, I use 
 
 AWS falls short because I need to package the data, then compress and upload it to my online file platform and then do the reverse before I am able to load it onto my ZCU104.
 
-![ZCU104](/img/zcu104.jpg)
+![ZCU104](/img/zcu104.png)
 
 Realising that this was adding at least an hour to my development time, I decided to utilise a [Lynsyn Lite] and a VPN to port forward the IP address of my local virtual cable to the AWS machine. This allowed me to load up my image file directly from PetaLinux without the need for an SD card.
 
