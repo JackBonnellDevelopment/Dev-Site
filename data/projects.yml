@@ -14,3 +14,8 @@ source:
     name: Xilinx KV260 -petalinux 2021.1 - Build Vitis AI Libraries
     description: Installing Vitis AI Libraries through the PetaLinux toolchain
     url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-petalinux-2021-1-build-vitis-ai-libraries-dd3025
+  
+  - icon: fa fa-hackster
+    name: Xilinx KV260 - Vitis-AI 1.4 Face Detection
+    description: Create a Face Detection Script for Vitis-AI 1.4
+    url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-vitis-ai-1-4-face-detection-90f914

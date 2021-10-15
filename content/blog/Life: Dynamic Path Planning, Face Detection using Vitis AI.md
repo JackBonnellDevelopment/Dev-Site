@@ -41,4 +41,4 @@ My next step is to look into DMA to pass the MIPI connection directly from the F
 
 you can check out my tutorial here: [Xilinx Kria KV260 - Vitis-AI 1.4 Face Detection]
 
-[Xilinx Kria KV260 - Vitis-AI 1.4 Face Detection]: https://www.hackster.io/jack-bonnell2/xilinx-kria-kv260-vitis-ai-1-4-face-detection-90f914
+[Xilinx KV260 - Vitis-AI 1.4 Face Detection]: https://www.hackster.io/jack-bonnell2/xilinx-kria-kv260-vitis-ai-1-4-face-detection-90f914
