@@ -72,7 +72,7 @@ October 15, 2021
 <p>The current implementation takes a webcam feed through the OpenCV library and resizes it to fit the DenseBox 320x320 resolution. The image passed through the inference function within the Vitis-AI Library, the resulting regions of interest are then drawn onto the image and passed to the GUI window.</p>
 <p><img src=/img/facetracking.gif alt="Face Tracking Results"></p>
 <p>My next step is to look into DMA to pass the MIPI connection directly from the FPGA to the CPU through direct memory access, meaning I can create a Vitis vision IP block. The IP block resizes the image on the FPGA side without CPU processing allowing for minimal latency.</p>
-<p>you can check out my tutorial here: <a href=https://www.hackster.io/jack-bonnell2/xilinx-kria-kv260-vitis-ai-1-4-face-detection-90f914>Xilinx Kria KV260 - Vitis-AI 1.4 Face Detection</a></p>
+<p>you can check out my tutorial here: [Xilinx Kria KV260 - Vitis-AI 1.4 Face Detection]</p>
 <div class="related-posts mt-4 py-3">
 <h5>Related Posts</h5>
 <div class=row>
