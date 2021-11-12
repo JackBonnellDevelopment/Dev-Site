@@ -1,0 +1,129 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Jack Bonnell">
+<link rel="shortcut icon" type=image/x-icon href=https://jackbonnelldevelopment.github.io/img/favicon.ico>
+<title>Getting Ready for the Adaptive Computing Challenge | Jack Bonnell - C++ Programmer</title>
+<meta name=description content="A brief walk through of my submission idea for the Adaptive Computing Challenge">
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl crossorigin=anonymous>
+<link rel="preload stylesheet" href=/css/main.min.css as=style>
+<link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css>
+<link rel=stylesheet type=text/css href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old"><!--[if lt IE 9]><script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
+<script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script><![endif]-->
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-1Q6WEWQ7RM','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body>
+<div id=content>
+<div class="container mb-3">
+<nav class="navbar navbar-expand-lg">
+<div class=container-fluid>
+<a class=navbar-brand href=https://jackbonnelldevelopment.github.io/>
+<i class="fa fa-home"></i>
+</a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbar aria-controls=navbar>
+<i class="fa fa-bars"></i>
+</button>
+<div id=navbar class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class=nav-item>
+<li><a class=nav-link href=/blog/>BLOG</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=/projects/>PROJECTS</a></li>
+</li>
+<li class=nav-item>
+<li><a class=nav-link href=https://resume.io/r/cdv5HCyfm>RESUME</a></li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class=container>
+<h3 class=mt-3><b><a href=https://jackbonnelldevelopment.github.io/blog/getting-ready-for-the-adaptive-computing-challenge-/>Getting Ready for the Adaptive Computing Challenge</a></b></h3>
+<div class="blog-title my-4">
+<h6>
+November 12, 2021
+&nbsp;&nbsp;
+<span class="badge bg-success">Xilinx</span>
+<span class="badge bg-success">Kria</span>
+<span class="badge bg-success">FPGA</span>
+</h6>
+</div>
+<div class=panel>
+<div class=panel-body>
+<div class=blogpost>
+<h1 id=getting-ready-for-the-adaptive-computing-challenge>Getting Ready for the Adaptive Computing Challenge</h1>
+<p>On the 15th of November, the Adaptive Computing Challenge will be announcing who gets allocated hardware to develop their competition idea.</p>
+<p><img src=/img/Adaptive_Banner.png alt="Adaptive Banner"></p>
+<h2 id=cattle-detection-on-the-edge>Cattle Detection on the Edge</h2>
+<p>This year I wanted to take a look at the emerging market for technology in the agricultural friend. More specifically, I want to look at cows and identify and document cows on mass. Currently, it is very labour intensive to raise cattle. This can lead to crucial information being missed through human error.</p>
+<p>For this year&rsquo;s project, I will be looking to use Vitis AI to identify cows using the markings on their body. I will do this by inverting the image and passing this image through a custom AI model.</p>
+<p><img src=/img/inverted_cow_image.png alt="inverted Cow"></p>
+<p>Using Stereo camera technology, I will be out the depth of the image. This allows me to work out a measurement per pixel from the image. With this information, I will be able to work out the width and length of the cow.</p>
+<p><img src=/img/depth_disparity.png alt=Depth></p>
+<p>This information will then be accessible from ROS topics running on the KRIA system itself, giving the users the ability to see the output of all the relevant data, including all cow measurements, bounding box data, and imagery from the camera itself.</p>
+<p><img src=/img/measure_cow.png alt=cow></p>
+<h2 id=conclusion-to-the-idea>Conclusion to the Idea</h2>
+<p>The idea of this project is for farmers better to understand FPGAs' abilities in the agricultural sector. Hopefully to allow both ourselves as developers and farmers better ways to come together to create more efficient work practices.</p>
+<div class="related-posts mt-4 py-3">
+<h5>Related Posts</h5>
+<div class=row>
+<div class=col-4>
+<h6 style=text-align:right>
+October 29, 2021
+</h6>
+</div>
+<div class=col-8>
+<h6 style=text-align:left>
+<b><a href=/blog/life-pids-and-trading-bot-plans/>Life: PIDs and Trading Bot Plans</a></b>
+</h6>
+</div>
+</div>
+<div class=row>
+<div class=col-4>
+<h6 style=text-align:right>
+October 15, 2021
+</h6>
+</div>
+<div class=col-8>
+<h6 style=text-align:left>
+<b><a href=/blog/life-dynamic-path-planning-face-detection-using-vitis-ai/>Life: Dynamic Path Planning, Face Detection using Vitis-AI</a></b>
+</h6>
+</div>
+</div>
+<div class=row>
+<div class=col-4>
+<h6 style=text-align:right>
+October 7, 2021
+</h6>
+</div>
+<div class=col-8>
+<h6 style=text-align:left>
+<b><a href=/blog/life-device-tree-overlays-jtag-development-flows-and-validation-testing/>Life: Device Tree Overlays, JTag Development Flows and Validation Testing</a></b>
+</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=disqus>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//jackbonnelldevelopment.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=container>
+<div class=text-muted>&copy; All rights reserved. Powered by <a href=https://gohugo.io/>Hugo</a>
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js integrity=sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG crossorigin=anonymous></script>
+</body>
+</html>
