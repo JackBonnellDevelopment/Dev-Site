@@ -22,5 +22,5 @@ source:
 
   - icon: fa fa-github
     name: Continous Integration Example using GTKMM and Gtest
-    description: Example shoing how to use github actions in c++ for Continous Integration
+    description: Example showing how to use github actions in c++ for Continous Integration
     url: https://github.com/JackBonnellDevelopment/gtkmm-CI-Example
