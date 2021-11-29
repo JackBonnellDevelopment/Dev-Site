@@ -19,3 +19,8 @@ source:
     name: Xilinx KV260 - Vitis-AI 1.4 Face Detection
     description: Create a Face Detection Script for Vitis-AI 1.4
     url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-vitis-ai-1-4-face-detection-90f914
+
+  - icon: fa fa-github
+    name: Continous Integration Example using GTKMM and Gtest
+    description: Example shoing how to use github actions in c++ for Continous Integration
+    url: https://github.com/JackBonnellDevelopment/gtkmm-CI-Example
