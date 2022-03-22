@@ -17,11 +17,14 @@ At the start of the year, I moved not only jobs but also industry spaces moving 
 
 ![Work Station](/img/computer_setup.jpg)
 
+## Transitioning from Edge to Hosted
 Moving from edge computing to hosted card-based technology, I underestimated the nuances that occur within PCIe transfer that you do not worry about using edge systems such as Kria.
 
 Moving to 7 series FPGAs has also given me a newfound respect for minimising my footprint with the way I implement my Verilog code. Not all FPGAS have limitless BRAM would you believe!
 
 Being the sole FPGA developer on the team has allowed me to push my critical thinking, making me research the meaning behind specific protocols and transfer mechanisms. Allowing me to push my understanding of the inner workings of FPGAs. 
+
+## Future Projects and Plans
 
 I still hope to keep my foot in the door within the robotics and AI sector, so please feel free to contact me regarding cool projects. Especially now it's my hobby ;).
 
