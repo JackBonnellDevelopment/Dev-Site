@@ -26,8 +26,8 @@ As the sole FPGA developer on the team I've been able to push my critical thinki
 
 ## Future Projects and Plans
 
-I still hope to keep my foot in the door within the robotics and AI sector, so please feel free to contact me regarding cool projects. Especially now it's my hobby ;).
-
 I'm looking forward to updating this blog with future findings and analysis of my FPGA journey. This includes my entry into the [Adaptive Computing Challenge] which I am hoping to have finished by the end of the week!
+
+I still hope to keep my foot in the door within the robotics and AI sector, so please feel free to contact me regarding cool projects. Especially now it's my hobby!
 
 [Adaptive Computing Challenge]: https://www.hackster.io/contests/xilinxadaptivecomputing2021
