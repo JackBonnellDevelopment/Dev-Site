@@ -15,14 +15,14 @@ tags = [
 
 At the start of the year, I moved not only jobs but also industry spaces moving from Robotics and AI technology to the Medical Industry. Whilst it is still in the FPGA computer vision space it has been a huge learning curve for me.
 
-![Work Station](/img/medical.jpeg)
+![Medical](/img/medical.jpeg)
 
 ## Transitioning from Edge to Hosted
 Moving from edge computing to hosted card-based technology, I underestimated the nuances that occur within PCIe transfer that you do not worry about using edge systems such as Kria.
 
 The 7 series FPGAs has also given me a newfound respect for minimising my footprint with the way I implement my Verilog code. Not all FPGAS have limitless BRAM would you believe!
 
-As the sole FPGA developer on the team has allowed me to push my critical thinking, making me research the meaning behind specific protocols and transfer mechanisms. Allowing me to push my understanding of the inner workings of FPGAs. 
+As the sole FPGA developer on the team I've been able to push my critical thinking, making me research the meaning behind specific protocols and transfer mechanisms. Allowing me to push my understanding of the inner workings of FPGAs. 
 
 ## Future Projects and Plans
 
