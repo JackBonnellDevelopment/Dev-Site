@@ -1,7 +1,7 @@
 +++
 author = "Jack Bonnell"
 title = "Life: New Beginning"
-date = "2021-11-12"
+date = "2022-03-22"
 description = "A brief update on the changes in my life"
 tags = [
     "Xilinx",
