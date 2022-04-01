@@ -20,10 +20,10 @@ source:
     description: Create a Face Detection Script for Vitis-AI 1.4
     url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-vitis-ai-1-4-face-detection-90f914
 
-- icon: fa fa-hackster
-    name: Xilinx KV260 - Vitis-AI 1.4 Cattle Detection
-    description: Create a Cattle Detection Script for Vitis-AI 1.4
-    url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-vitis-ai-1-4-cattle-tracking-16a404
+  - icon: fa fa-hackster
+      name: Xilinx KV260 - Vitis-AI 1.4 Cattle Detection
+      description: Create a Cattle Detection Script for Vitis-AI 1.4
+      url: https://www.hackster.io/jack-bonnell2/xilinx-kv260-vitis-ai-1-4-cattle-tracking-16a404
 
   - icon: fa fa-github
     name: Continous Integration Example using GTKMM and Gtest
