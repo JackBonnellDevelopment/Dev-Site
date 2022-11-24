@@ -1,9 +1,9 @@
 ---
 ---
 
-I'm **Jack Bonnell**, a Computer Vision Engineer.
+I'm **Jack Bonnell**, a Senior CoreTech Software Engineer.
 
-I specialise in C++ & FPGA development in the Robotics Industry.
+Currently honing my skills in the MetaVerse whilst also dabbling in FPGA development.
 
 This website is to document my coffee powered sleep deprived exploits.
 

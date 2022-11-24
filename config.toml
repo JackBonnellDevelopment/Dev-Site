@@ -13,7 +13,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "img/profile.png"
   author = "Jack Bonnell"
-  description = "Portfolio website for Jack Bonnell C++ Developer and FPGA engineer"
+  description = "Portfolio website for Jack Bonnell C++ Developer and FPGA Enthusiast"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
