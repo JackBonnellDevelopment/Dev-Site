@@ -34,3 +34,8 @@ source:
     name: Utilising Socket.IO For Real Time Data Visualisation using Node.js
     description: Example showing to use Socket.IO for real time data visualisation
     url: https://medium.com/@jackbonnell/utilising-socket-io-for-real-time-data-visualisation-with-node-js-c2c590ab80bb
+
+  - icon: fa fa-institution
+    name: University Dissertation - Computing the NDVI of Classified Trees
+    description: Final Year Project looking at Wildfire prevention using Robotics and AI
+    url: https://drive.google.com/file/d/1DyTvVlY1SCSQHaSHxEHpcKhncvcc7sQp/view?usp=sharing
