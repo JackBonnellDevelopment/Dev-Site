@@ -1,5 +1,15 @@
 name: Projects
 source:
+  - icon: fa fa-institution
+    name: University Dissertation - Computing the NDVI of Classified Trees
+    description: Final year project looking at wildfire prevention using Robotics and AI
+    url: https://drive.google.com/file/d/1DyTvVlY1SCSQHaSHxEHpcKhncvcc7sQp/view?usp=sharing
+
+- icon: fa fa-institution
+    name: Part Author of a Published Paper - Robotics Use Case Scenarios
+    description: A paper I part authored currently available on Research Gate
+    url: https://www.researchgate.net/publication/342719824_Robotics_Use_Case_Scenarios
+
   - icon: fa fa-hackster
     name: Accelerated Visual Sense using RealSense Lidar
     description: Creating FPGA based AI face recogition using the RealSense Lidar from Intel
@@ -34,8 +44,3 @@ source:
     name: Utilising Socket.IO For Real Time Data Visualisation using Node.js
     description: Example showing to use Socket.IO for real time data visualisation
     url: https://medium.com/@jackbonnell/utilising-socket-io-for-real-time-data-visualisation-with-node-js-c2c590ab80bb
-
-  - icon: fa fa-institution
-    name: University Dissertation - Computing the NDVI of Classified Trees
-    description: Final year project looking at wildfire prevention using Robotics and AI
-    url: https://drive.google.com/file/d/1DyTvVlY1SCSQHaSHxEHpcKhncvcc7sQp/view?usp=sharing
