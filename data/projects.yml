@@ -3,7 +3,7 @@ source:
   - icon: fa fa-institution
     name: University Dissertation - Computing the NDVI of Classified Trees
     description: Final year project looking at wildfire prevention using Robotics and AI
-    url: https://drive.google.com/file/d/1DyTvVlY1SCSQHaSHxEHpcKhncvcc7sQp/view?usp=sharing
+    url: /pdf/Disseration.pdf
 
   - icon: fa fa-institution
     name: Part Author of a Published Paper - Robotics Use Case Scenarios
