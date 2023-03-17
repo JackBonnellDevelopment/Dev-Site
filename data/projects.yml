@@ -5,9 +5,9 @@ source:
     description: Final year project looking at wildfire prevention using Robotics and AI
     url: https://drive.google.com/file/d/1DyTvVlY1SCSQHaSHxEHpcKhncvcc7sQp/view?usp=sharing
 
-- icon: fa fa-institution
+  - icon: fa fa-institution
     name: Part Author of a Published Paper - Robotics Use Case Scenarios
-    description: A paper I part authored currently available on Research Gate
+    description: A paper I part authored about Robotics Use Case Scenarios currently available on Research Gate
     url: https://www.researchgate.net/publication/342719824_Robotics_Use_Case_Scenarios
 
   - icon: fa fa-hackster
