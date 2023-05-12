@@ -3,7 +3,7 @@ source:
   - icon: fa fa-institution
     name: University Dissertation - Computing the NDVI of Classified Trees
     description: Final year project looking at wildfire prevention using Robotics and AI
-    url: /pdf/Disseration.pdf
+    url: /pdf/disseration.pdf
 
   - icon: fa fa-institution
     name: Part Author of a Published Paper - Robotics Use Case Scenarios
@@ -39,6 +39,11 @@ source:
     name: Continous Integration Example using GTKMM and Gtest
     description: Example showing how to use github actions in c++ for Continous Integration
     url: https://github.com/JackBonnellDevelopment/gtkmm-CI-Example
+
+  - icon: fa fa-github
+    name: Automated ChatGPT LinkedIn Bot
+    description: An automated LinkedIn Bot that uses ChatGPT to post content related to chosen Tags
+    url: https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot
 
   - icon: fa fa-medium
     name: Utilising Socket.IO For Real Time Data Visualisation using Node.js
