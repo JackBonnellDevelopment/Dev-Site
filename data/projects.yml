@@ -49,3 +49,8 @@ source:
     name: Utilising Socket.IO For Real Time Data Visualisation using Node.js
     description: Example showing to use Socket.IO for real time data visualisation
     url: https://medium.com/@jackbonnell/utilising-socket-io-for-real-time-data-visualisation-with-node-js-c2c590ab80bb
+
+  - icon: fa fa-cube
+    name: Ender 3 V2 - Bed Mounted Raspberry Pi HQ Camera
+    description: A Raspberry Pi HQ Camera mount for the ender3 V2
+    url: https://www.thingiverse.com/thing:6125910
